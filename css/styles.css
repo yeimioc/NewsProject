@@ -33,6 +33,10 @@ ul {
     list-style: none;
 }
 
+p {
+    margin: .5rem;
+}
+
 img {
     width: 100%;
 }
@@ -119,11 +123,19 @@ h1, h2, h3, h4, h5, h6 {
 .py-1 { padding: 1.5rem 0 }
 .py-2 { padding: 2rem 0 }
 .py-3 { padding: 3rem 0 }
-.p { padding: 1.5rem }
-.p { padding: 2rem }
-.p { padding: 3rem }
+.p-1 { padding: 1.5rem }
+.p-2 { padding: 2rem }
+.p-3 { padding: 3rem }
 
+.list li {
+    padding: .5rem 0;
+    border-bottom: #555 dotted 1px;
+    width: 90%;
+}
 
+.list li a:hover {
+    color: var(--primary-color) !important;
+}
 .btn-block {
     display: block;
     width: 100%;
@@ -254,3 +266,23 @@ h1, h2, h3, h4, h5, h6 {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1.5rem;
 }
+
+#main-footer .footer-container > *:last-child {
+    background: #444;
+    grid-column: 1 / span 4;
+    padding: .5rem;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+#main-footer .footer-container input[type='email'] {
+    width: 90%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#main-footer .footer-container input [type='submit'] {
+    width: 90%;
+}
+
+
