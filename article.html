@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
 
-    <title>NewsGrid  |  About</title>
+    <title>NewsGrid  |  Latest News</title>
 </head>
 <body>
     <nav id="main-nav">
@@ -25,16 +25,23 @@
             </div>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a class="current" href="about.html">About</a></li>
+                <li><a href="about.html">About</a></li>
             </ul>
         </div>
     </nav>
 
-    <section id="about">
+    <section id="article">
         <div class="container">
             <div class="page-container">
                 <article class="card">
-                    <h1 class="l-heading">About Our Organization</h1>
+                    <img src="images/articles.jpg" alt="">
+                    <h1 class="l-heading">Lorem ipsum dolor sit amet.</h1>
+                    <div class="meta">
+                        <small>
+                            <i class="fas fa-user"> Written by Tifanny Larson December 4, 2010 </i>
+                        </small>
+                        <div class="category category-ent">Entertainment</div>
+                    </div>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                         Cum velit consectetur obcaecati animi repellendus esse 
                         nulla aperiam nam facere suscipit. Reiciendis nihil cum 
@@ -58,7 +65,18 @@
                         amet harum necessitatibus. Soluta dicta incidunt repellendus!
                     </p>
                 </article>
-                <aside class="card bg-primary">
+
+                <aside id="categories" class="card">
+                    <h2>Categories</h2>
+                    <ul class="list">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Sports</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Entertainment</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Technology</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Fashion</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Shopping</a></li>
+                    </ul>
+                </aside>
+                <aside class="card bg-secondary">
                     <h2>Join Our Company</h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                         Voluptatum, temporibus.
